@@ -15,9 +15,10 @@
     "url": "https://github.com/PauloRCPE/Backend_PauloR/issues"
   },
   "homepage": "https://github.com/PauloRCPE/Backend_PauloR#readme",
-  "description": "",
   "dependencies": {
     "mongodb": "^6.16.0",
     "mongoose": "^8.14.3"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
