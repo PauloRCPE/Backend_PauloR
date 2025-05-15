@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/PauloRCPE/Backend_PauloR#readme",
   "dependencies": {
+    "express": "^5.1.0",
     "mongodb": "^6.16.0",
     "mongoose": "^8.14.3"
   },
-  "devDependencies": {},
   "description": ""
 }
