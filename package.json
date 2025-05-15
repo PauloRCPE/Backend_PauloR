@@ -2,7 +2,6 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "app.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +15,9 @@
     "url": "https://github.com/PauloRCPE/Backend_PauloR/issues"
   },
   "homepage": "https://github.com/PauloRCPE/Backend_PauloR#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.14.3"
+  }
 }
