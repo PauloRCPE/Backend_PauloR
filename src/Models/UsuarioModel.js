@@ -10,6 +10,6 @@ const UsuarioSchema = new Schema({
   cargo: String,
 });
 
-const UsuarioModel = new mongoose.model("usuarios", UsuarioScshema);
+const UsuarioModel = new mongoose.model("usuarios", UsuarioSchema);
 
 module.exports = UsuarioModel;
