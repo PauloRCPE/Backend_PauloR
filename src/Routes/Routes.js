@@ -1,10 +1,11 @@
 const { Router } = require("express");
 const UsuarioController = require("../Controllers/UsuarioController");
 const SessoesController = require("../Controllers/SessoesController");
+const UsuarioValidator = require("../Validators/UsuarioValidator");
 
 const rotas = Router();
 
-rotas.post("/usuarios", UsuarioController.create);
+rotas.post("/usuarios", UsuarioValidator.create, UsuarioController.create);
 rotas.get("/usuarios", UsuarioController.read);
 rotas.put("/usuarios/:id", UsuarioController.update);
 rotas.delete("/usuarios/:id", UsuarioController.delete);
